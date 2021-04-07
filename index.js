@@ -15,6 +15,7 @@ class CustomCrop extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            
             viewHeight:
                 Dimensions.get('window').width * (props.height / props.width),
             height: props.height,
